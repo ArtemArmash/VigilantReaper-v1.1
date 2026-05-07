@@ -4,7 +4,7 @@ class TelegramNotifier:
     def __init__(self, token: str, chat_id: str):
         self.token = token
         self.chat_id = chat_id
-        self.url = f"https://api.telegram.org/bot8795264803:AAER3H4uV8LxWpmFejcB5CCyzaK83aPmtqM/sendMessage"
+        self.url = f"https://api.telegram.org/botBOT_API_TOKEN_HERE/sendMessage"
 
     async def send_message(self, text: str):
         json_data = {
