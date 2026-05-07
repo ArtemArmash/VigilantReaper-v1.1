@@ -102,7 +102,7 @@ class VigilantReaper:
         print(f"✅ [FINISH] Полювання на {self.target} завершено.")
 
 async def main():
-    target_domain = "nung.edu.ua"
+    target_domain = "example.org"
     reaper = VigilantReaper(target_domain)
     await reaper.run_pipeline()
 
